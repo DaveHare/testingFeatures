@@ -1,5 +1,5 @@
 function alertBox(){
-    alert('Hello');
+    alert('This is a test');
     
     }
     

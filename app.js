@@ -1,0 +1,5 @@
+function alertBox(){
+    alert('Hello');
+    
+    }
+    

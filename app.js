@@ -1,7 +1,18 @@
-function alertBox(){
+
+
+function alertBox() {
     alert('This is a test');
-    alert('this is another alert!'); 
-    alert('hei nic');
-    
-    }
-    
+
+}
+
+function incrementValue() {
+
+    var value = parseInt(document.getElementById('myTextArea').value,10);
+    value = isNaN(value) ?  0 : value; 
+    value++;
+    document.getElementById('myTextArea').value = value; 
+    document.getElementById('numberArea').innerHTML = value; 
+
+}
+
+

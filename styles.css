@@ -1,0 +1,25 @@
+body {background-color: rgb(220, 255, 220);}
+h1   {
+    color: rgb(101, 101, 236);
+    text-align: center; 
+}
+
+
+h2 {
+    color: red;
+    text-align: center;
+} 
+
+p {
+    color: green;
+    text-align: center;
+}
+
+#button {
+    align-self: center;
+
+}
+
+#inputField {
+        align-self: center; 
+}
